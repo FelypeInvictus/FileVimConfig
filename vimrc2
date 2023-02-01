@@ -1,13 +1,21 @@
 call plug#begin('~/.vim/plugged')
 " Aqui vão os pluggins
 
-" Plugin de Exemplo inicial
 
 Plug 'matsuuu/pinkmare'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'tribela/vim-transparent'
 Plug 'b4b4r07/vim-sqlfmt'
 
+" Flutter
+Plug 'nvim-lua/plenary.nvim'
+Plug 'akinsho/flutter-tools.nvim'
+
+" Dart/Flutter
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
 call plug#end()
 
 
